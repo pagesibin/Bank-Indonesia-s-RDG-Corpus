@@ -1,0 +1,19 @@
+code,lang,issue,action,field,new_value,notes
+peng_RDG_2006,,"schedule notice (""Jadwal Tentative RDG 2006""), not an RDG decision",exclude,,,found during 2026-09-09 audit
+peng_rdg_07,,"schedule notice (""Jadwal Tentative RDG 2007""), not an RDG decision",exclude,,,found during 2026-09-09 audit
+peng_rdg_08,,"schedule notice (""Jadwal Tentative RDG 2008""), not an RDG decision",exclude,,,found during 2026-09-09 audit
+peng_rdg_300408,,"schedule-change notice (May 2008), not an RDG decision",exclude,,,found during 2026-09-09 audit
+info_rdg_230908,,"schedule-change notice (Oct 2008), not an RDG decision",exclude,,,found during 2026-09-09 audit
+jadwal_rdg_juni_2010,,"schedule-change notice (Jun 2010), not an RDG decision",exclude,,,found during 2026-09-09 audit
+77105,id,"first-ever BI Rate announcement (July 2005 launch of the BI Rate framework); no prior BI Rate exists to compare against, so hike/cut/hold don't apply",fix_field,direction,initial,"BI Rate policy framework began this meeting (2005-07-05); confirmed by 2005 annual report chapter: 'Mulai Juli 2005 Bank Indonesia telah mengimplementasikan kerangka kerja kebijakan moneter yang baru...'"
+77105,id,"no baseline BI Rate to compute a bps change from",fix_field,bps,,"leave blank, not 0 — 0 would imply a measured no-change from a prior rate"
+bi_rate_090805-2,id,"duplicate of bi_rate_090805-1 (same date, title, content)",exclude,,,user-confirmed duplicate 2026-09-10
+it_60905_bi_rate-2,id,"duplicate of it_60905_bi_rate-1 (same date, title, content)",exclude,,,user-confirmed duplicate 2026-09-10
+125410,id,penggunaan bahasa menetapkan sesuai dengan keputusan untuk hold bi rate,fix_field,direction,hold,
+182916,eng,hanya menggantikan nama kebijakan,action,fix_field,initial,
+189516,id,tidak berkaitan,exclude,,,
+257523,eng,tidak berkaitan,exclude,,,
+277125,,tidak berkaitan,exclude,,,
+233021,,tidak berkaitan,exclude,,,
+2322821,,tidak berkaitan,exclude,,,
+2814626,,tidak berkaitan,exclude,,,

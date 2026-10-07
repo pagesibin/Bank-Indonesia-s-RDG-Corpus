@@ -1,0 +1,256 @@
+==============================================================================
+BI RDG CORPUS — PARSE AUDIT
+==============================================================================
+documents parsed : 423
+with flags       : 66 (16%)
+date range       : 2005-07-05 .. 2026-09-06
+per year         : 2005:3  2006:12  2007:18  2008:23  2009:22  2010:19  2011:20  2012:14  2013:18  2014:18  2015:21  2016:25  2017:21  2018:25  2019:24  2020:23  2021:23  2022:18  2023:19  2024:20  2025:19  2026:18
+
+CHECK EACH OF THESE BY OPENING THE URL AND COMPARING:
+  1. is the date right?
+  2. is the rate level right, and does the direction match?
+  3. do the section headings look like real headings (not sentence fragments)?
+  4. is the number of sections plausible (BI releases run ~10-13)?
+
+------------------------------------------------------------------------------
+2005-07-05  [id]  sp_77105   FLAGS: no_decision_parsed|no_rate_level
+  title    : BI Rate Triwulan III-2005 Ditetapkan Sebesar 8,5%
+  decision : initial  bps=-  level=-%  ref=7/71/PSHM
+  sections : 6   words: 858
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp 77105.aspx
+      1. [decision          ] Sejalan dengan penggunaan suku bunga sebagai sinyal kebijakan moneter, Rapat Dewan (RDG)
+      2. [growth            ] RDG memandang perkembangan ekonomi Indonesia triwulan II-2005 tetap tumbuh tinggi diikut
+      3. [inflation         ] Inflasi IHK masih tetap terkendali meskipun berada pada tingkat yang relatif tinggi yakn
+      4. [exchange_rate     ] Nilai tukar Rupiah masih cenderung terdepresiasi sehingga
+      5. [banking_resilience] Kinerja perbankan nasional sampai dengan triwulan II-2005 menunjukkan perkembangan yang 
+      6. [other             ] Ke depan, prospek ekonomi dalam triwulan mendatang dan keseluruhan tahun 2005 tetap meng
+------------------------------------------------------------------------------
+2005-08-09  [id]  sp_bi_rate_090805-1   FLAGS: few_sections
+  title    : BI Rate Meningkat 25 Basis Poin Menjadi 8,75%
+  decision :  hike  bps=25.0  level=8.75%  ref=-
+  sections : 2   words: 666
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/bi rate 090805-1.aspx
+      1. [inflation         ] Inflasi IHK pada bulan Juli 2005 meningkat dibandingkan bulan sebelumnya
+      2. [exchange_rate     ] Nilai tukar rupiah pada bulan Juli 2005
+------------------------------------------------------------------------------
+2005-09-06  [id]  sp_it_60905_bi_rate-1   FLAGS: few_sections
+  title    : BI Rate Meningkat 50 Basis Poin Menjadi 10,0%
+  decision :  hike  bps=50.0  level=10.0%  ref=-
+  sections : 2   words: 776
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/it 60905 bi rate-1.aspx
+      1. [inflation         ] Inflasi IHK Agustus 2005
+      2. [exchange_rate     ] Nilai Tukar Rupiah
+------------------------------------------------------------------------------
+2006-01-09  [id]  sp_8106   FLAGS: few_sections|short_body
+  title    : STATEMENT KEBIJAKAN MONETER GUBERNUR BANK INDONESIA : Kebijakan Moneter Cenderung Ketat Dipertahanka
+  decision :  hold  bps=0.0  level=12.75%  ref=8/1/PSHM
+  sections : 3   words: 164
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp 8106.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada hari ini tanggal 9 Januari 2006 menetapka
+      2. [other             ] Bank Indonesia memandang bahwa terdapat optimisme yang cukup kuat pada prospek ekonomi k
+      3. [other             ] Jakarta, 9 Januari 2006 DIREKTORAT PERENCANAAN STRATEGIS dan HUBUNGAN MASYARAKAT
+------------------------------------------------------------------------------
+2006-10-05  [id]  sp_85306   FLAGS: few_sections
+  title    : Statemen Gubernur Bank Indonesia : BI Rate Turun 50 bps Menjadi 10,75%
+  decision :   cut  bps=50.0  level=10.75%  ref=8/53/PSHM
+  sections : 1   words: 914
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_85306.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada hari ini, memutuskan untuk menurunkan BI 
+------------------------------------------------------------------------------
+2006-11-07  [id]  sp_85706   FLAGS: few_sections
+  title    : Pernyataan Gubernur Bank Indonesia : Bank Indonesia Menurunkan BI Rate Sebesar 50 bps Menjadi 10.25%
+  decision :   cut  bps=50.0  level=10.25%  ref=8/57/PSHM
+  sections : 1   words: 626
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_85706.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia (BI) pada hari ini, Selasa, 7 November 2006, m
+------------------------------------------------------------------------------
+2007-04-05  [id]  sp_091607   FLAGS: no_rate_level
+  title    : Pernyataan Gubernur Bank Indonesia: Stabilitas Makroekonomi Terus Berlanjut, Optimisme Pertumbuhan E
+  decision :  hike  bps=-  level=-%  ref=9/16/PSHM
+  sections : 13   words: 1120
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_091607.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia hari ini adalah Rapat Dewan Gubernur Triwulana
+      2. [growth            ] Pertumbuhan ekonomi pada triwulan-I 2007 diperkirakan sebesar 5,4% atau masih sesuai den
+      3. [bop               ] Dari sisi neraca pembayaran (NPI), kinerja selama triwulan I 2007 diperkirakan akan lebi
+      4. [inflation         ] Hasil pemantauan dan kajian Bank Indonesia menunjukkan bahwa inflasi pada triwulan I-200
+      5. [growth            ] Ke depan, secara umum proyeksi pertumbuhan ekonomi 2007-2008 masih sesuai dengan perkira
+      6. [other             ] Asesmen Bank Indonesia juga menunjukkan bahwa stabilitas keuangan diperkirakan masih ter
+      7. [banking_resilience] Di bidang perbankan, secara umum kondisi industri perbankan nasional menunjukkan pertumb
+      8. [other             ] Dari kondisi dan perkembangan tersebut, dapat disimpulkan bahwa stabilitas makroekonomi 
+      9. [monetary_policy   ] Setelah melalui berbagai perhitungan dan pertimbangan yang mendalam terhadap perkembanga
+     10. [inflation         ] Saat ini, dari hasil pemantauan terhadap perkembangan beberapa kelompok harga administer
+     11. [inflation         ] Untuk mengantisipasi perkembangan tersebut, Bank Indonesia perlu terlebih dahulu mencerm
+     12. [banking_resilience] Bank Indonesia akan senantiasa mencermati perkembangan makroekonomi secara seksama denga
+     13. [other             ] Jakarta, 5 April 2007 Direktorat Perencanaan Strategis dan Hubungan Masyarakat
+------------------------------------------------------------------------------
+2007-12-06  [en]  sp_093907   FLAGS: few_sections
+  title    : BI Rate Cut to 8%
+  decision :   cut  bps=25.0  level=8.0%  ref=9/39/PSHM
+  sections : 1   words: 842
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_093907.aspx
+      1. [decision          ] In the Board of Governor’s Meeting on Thursday, 6 December 2007, Bank Indonesia decided 
+------------------------------------------------------------------------------
+2007-12-06  [id]  sp_093907   FLAGS: few_sections
+  title    : BI Rate Turun Menjadi 8%
+  decision :   cut  bps=-  level=8.0%  ref=9/39/PSHM
+  sections : 2   words: 821
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_093907.aspx
+      1. [other             ] No. 9/39/PSHM/Humas
+      2. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada hari Kamis, 6 Desember 2007 memutuskan un
+------------------------------------------------------------------------------
+2008-02-06  [en]  sp_100808   FLAGS: few_sections
+  title    : Statement by the Governor of Bank Indonesia: BI Rate Held at 8.0%
+  decision :  hold  bps=0.0  level=8.0%  ref=10/8/PSHM
+  sections : 2   words: 773
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_100808.aspx
+      1. [decision          ] In the Board of Governors' Meeting convened today, Bank Indonesia decided to hold the BI
+      2. [other             ] Jakarta, 6 February 2008 Office of The Governor Amril Arief Director
+------------------------------------------------------------------------------
+2018-09-27  [id]  sp_207318
+  title    : BI 7-Day Reverse Repo Rate Naik 25 bps Menjadi 5,75%: Memperkuat Ketahanan Eksternal, Menjaga Stabil
+  decision :  hike  bps=25.0  level=5.75%  ref=20/73/DKom
+  sections : 9   words: 1319
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_207318.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada 26-27 September 2018 memutuskan untuk men
+      2. [monetary_policy   ] Untuk memperkuat stabilitas Rupiah, kenaikan suku bunga tersebut juga didukung oleh kebi
+      3. [growth            ] Pertumbuhan ekonomi global semakin tidak merata dan disertai ketidakpastian di pasar keu
+      4. [growth            ] Pertumbuhan ekonomi Indonesia diprakirakan masih sesuai perkiraan, terutama ditopang ole
+      5. [other             ] Neraca perdagangan Indonesia pada Agustus 2018 mencatat defisit.
+      6. [exchange_rate     ] Nilai tukar Rupiah masih mengalami tekanan depresiasi dengan volatilitas terjaga
+      7. [inflation         ] Inflasi tetap terkendali pada level yang rendah dan stabil.
+      8. [credit            ] Stabilitas sistem keuangan tetap terjaga disertai intermediasi perbankan yang membaik da
+      9. [payment_system    ] Perkembangan ekonomi yang tetap positif didukung oleh Sistem Pembayaran dan Pengelolaan 
+------------------------------------------------------------------------------
+2019-06-20  [id]  sp_214619
+  title    : BI 7-Day Reverse Repo Rate Tetap 6,00%, GWM Rupiah Turun 50 bps: Menjaga Stabilitas Eksternal, Mendo
+  decision :   cut  bps=50.0  level=6.0%  ref=21/46/DKom
+  sections : 8   words: 1296
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_214619.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada 19-20 Juni 2019 memutuskan untuk memperta
+      2. [global            ] Eskalasi ketegangan hubungan dagang yang meningkat makin memengaruhi dinamika perekonomi
+      3. [growth            ] Pertumbuhan ekonomi Indonesia triwulan II 2019 diprakirakan melandai akibat kinerja eksp
+      4. [bop               ] Neraca Pembayaran Indonesia triwulan II 2019 diprakirakan tetap baik sehingga menopang k
+      5. [exchange_rate     ] Nilai tukar Rupiah secara keseluruhan bergerak stabil.
+      6. [inflation         ] Inflasi Mei 2019 yang bersamaan dengan bulan Ramadan dan menjelang Idulfitri tetap terke
+      7. [credit            ] Stabilitas sistem keuangan tetap terjaga disertai fungsi intermediasi yang berjalan baik
+      8. [payment_system    ] Kelancaran sistem pembayaran tetap terjaga, baik dari sisi tunai maupun nontunai.
+------------------------------------------------------------------------------
+2007-10-08  [en]  sp_093607
+  title    : Statement by the Governor of Bank Indonesia : BI Keeps BI Rate at 8.25%
+  decision :  hold  bps=0.0  level=8.25%  ref=9/36/PSHM
+  sections : 10   words: 868
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_093607.aspx
+      1. [decision          ] In the Board of Governors' Meeting convened on Monday, 8 October 2007, Bank Indonesia de
+      2. [decision          ] The decision to keep the current level of BI rate is an attempt to consolidate the credi
+      3. [other             ] During Q3/2007, the Indonesian economy continued to show good overall progress, despite 
+      4. [inflation         ] On the domestic front, rising inflation in September 2007 was fuelled mainly by escalati
+      5. [other             ] The economic continued to expand in Q3/2007, with growth potentially reaching 6.3%.
+      6. [bop               ] Robust figures are again predicted for Indonesia’s balance of payments with the current 
+      7. [other             ] The continued resilience of the banking system amid the recent turmoil has reinforced ma
+      8. [inflation         ] Looking ahead, the outlook is daunted by risks of a slowing domestic economy and rising 
+      9. [other             ] In this regard, Bank Indonesia will maintain intensive coordination with the Government 
+     10. [other             ] Jakarta, 8 October 2007 DIRECTORATE OF STRATEGIC PLANNING and PUBLIC RELATIONS
+------------------------------------------------------------------------------
+2015-06-18  [id]  sp_174915
+  title    : BI Rate Tetap 7,50%
+  decision :  hold  bps=0.0  level=7.5%  ref=17/49/DKom
+  sections : 8   words: 1114
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_174915.aspx
+      1. [other             ] No. 17/ 49 /DKom
+      2. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada 18 Juni 2015 memutuskan untuk mempertahan
+      3. [growth            ] Pertumbuhan ekonomi global cenderung bias ke bawah dari perkiran semula disertai dengan 
+      4. [growth            ] Pertumbuhan ekonomi Indonesia pada triwulan II 2015 diprakirakan masih terbatas dan akan
+      5. [other             ] Neraca perdagangan Indonesia pada Mei 2015 kembali mencatat surplus, terutama ditopang o
+      6. [exchange_rate     ] Nilai tukar rupiah mengalami depresiasi seiring penguatan dolar AS terhadap hampir semua
+      7. [inflation         ] Tekanan inflasi di bulan Mei 2015 meningkat didorong oleh gejolak harga bahan makanan
+      8. [other             ] Stabilitas sistem keuangan tetap solid ditopang oleh ketahanan sistem perbankan dan rela
+------------------------------------------------------------------------------
+2021-07-22  [en]  sp_2317721
+  title    : BI 7-Day Reverse Repo Rate Held at 3.50% Synergy Maintaining Stability and Strengthening Recovery
+  decision :  hold  bps=0.0  level=3.5%  ref=23/177/DKom
+  sections : 10   words: 2133
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2317721.aspx
+      1. [decision          ] The BI Board of Governors Meeting agreed on
+      2. [global            ] The global economic recovery is expected to exceed previous projections despite the rece
+      3. [growth            ] At home, lower domestic economic growth is expected than previously projected, given the
+      4. [bop               ] Indonesia's Balance of Payments (BOP) is predicted to remain solid, thereby reinforcing 
+      5. [exchange_rate     ] Given Bank Indonesia's stabilisation measures, rupiah exchange rate movements have remai
+      6. [inflation         ] Inflation remains low.
+      7. [monetary_policy   ] Liquidity conditions remain loose in line with Bank Indonesia's accommodative monetary p
+      8. [monetary_policy   ] A low policy rate and loose liquidity conditions in the banking industry have prompted l
+      9. [credit            ] Financial system resilience is still solid despite further opportunities to revive the b
+     10. [digital_payments  ] Bank Indonesia will continue to strengthen payment system policy towards accelerating di
+------------------------------------------------------------------------------
+2020-12-17  [en]  sp_229520
+  title    : BI 7-Day Reverse Repo Rate Held at 3.75%: Synergy Building Economic Recovery Optimism
+  decision :  hold  bps=0.0  level=3.75%  ref=22/87/DKom
+  sections : 10   words: 2253
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_229520.aspx
+      1. [decision          ] The BI Board of Governors agreed on 16th and 17th December 2020 to hold the BI 7-Day Rev
+      2. [global            ] Global economic improvements have endured and are projected to accelerate in 2021
+      3. [growth            ] At home, domestic economic growth is expected to gradually gain momentum and accelerate 
+      4. [bop               ] Indonesia's Balance of Payments (BOP) remains solid, thus reinforcing external sector re
+      5. [exchange_rate     ] Supported by Bank Indonesia’s stabilisation measures and maintained foreign capital infl
+      6. [inflation         ] Inflation remains low on weak domestic demand and adequate supply
+      7. [macroprudential   ] In line with Bank Indonesia's accommodative monetary and macroprudential policy stance, 
+      8. [growth            ] Bank Indonesia will strengthen monetary expansion synergy with fiscal stimuli by the Gov
+      9. [other             ] Financial system stability remains solid, although the risks associated with Covid-19 tr
+     10. [payment_system    ] Cash and non-cash payment system transactions are increasing in line with the economic r
+------------------------------------------------------------------------------
+2019-02-21  [id]  sp_211219
+  title    : BI 7-Day Reverse Repo Rate Tetap 6,00%: Memperkuat Stabilitas Eksternal, Menjaga Momentum Pertumbuha
+  decision :  hold  bps=0.0  level=6.0%  ref=21/12/DKom
+  sections : 8   words: 1261
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_211219.aspx
+      1. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada 20-21 Februari 2019 memutuskan untuk memp
+      2. [growth            ] Pertumbuhan ekonomi dunia melambat disertai dengan berkurangnya ketidakpastian pasar keu
+      3. [growth            ] Momentum pertumbuhan ekonomi tetap terjaga didukung oleh permintaan domestik.
+      4. [bop               ] Neraca Pembayaran Indonesia (NPI) membaik sehingga menopang ketahanan sektor eksternal.
+      5. [exchange_rate     ] Nilai tukar Rupiah menguat sehingga menopang berlanjutnya stabilitas perekonomian.
+      6. [inflation         ] Inflasi tetap terkendali pada level yang rendah dan mendukung pencapaian sasaran inflasi
+      7. [credit            ] Stabilitas sistem keuangan tetap terjaga disertai fungsi intermediasi yang membaik dan r
+      8. [payment_system    ] Kelancaran sistem pembayaran tetap terpelihara, baik dari sisi tunai maupun nontunai.
+------------------------------------------------------------------------------
+2016-09-22  [en]  sp_187816
+  title    : BI Continues to Ease Its Monetary Policy by Lowering BI 7-Day Reverse Repo Rate 25 bps
+  decision :   cut  bps=25.0  level=5.0%  ref=18/78/DKom
+  sections : 7   words: 1036
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_187816.aspx
+      1. [decision          ] The BI Board of Governors agreed on 21-22nd September 2016 to lower the BI 7-day Reverse
+      2. [growth            ] Lower-than-projected global economic growth has become a tangible possibility, along wit
+      3. [growth            ] Domestic economic growth in Q-3 is still maintained, albeit not as strong as previously 
+      4. [other             ] Indonesia’s trade balance recorded another surplus in August 2016, supported by a growin
+      5. [exchange_rate     ] Limited rupiah depreciation was observed in August 2016, before rebounding thereafter in
+      6. [inflation         ] Inflation remained low and is projected within the target corridor set for 2016, namely 
+      7. [other             ] Financial system stability and banking system resilience were maintained
+------------------------------------------------------------------------------
+2020-10-13  [en]  sp_227520
+  title    : BI 7-Day Reverse Repo Rate Held at 4.00%: Synergy to Accelerate National Economic Recovery
+  decision :  hold  bps=0.0  level=4.0%  ref=22/75/DKom
+  sections : 10   words: 2150
+  url      : https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_227520.aspx
+      1. [decision          ] The BI Board of Governors agreed on 12th and 13th October 2020 to hold the BI 7-Day Reve
+      2. [global            ] The global economic recovery is proceeding as expected.
+      3. [bop               ] The domestic economy is also recovering gradually, primarily driven by fiscal stimuli an
+      4. [other             ] External sector resilience was maintained in the third quarter of 2020 despite a rebalan
+      5. [exchange_rate     ] Consistent with Bank Indonesia's stabilisation measures, rupiah exchange rates have rema
+      6. [inflation         ] Inflation remains low on weak domestic demand and adequate supply
+      7. [macroprudential   ] In line with Bank Indonesia's accommodative monetary and macroprudential policy stance, 
+      8. [growth            ] Bank Indonesia will strengthen monetary expansion synergy with fiscal stimuli by the Gov
+      9. [other             ] Financial system stability remains solid, although the risks associated with COVID-19 tr
+     10. [payment_system    ] Cash and non-cash payment system transactions are increasing in line with the economic r
+------------------------------------------------------------------------------
+2018-03-22  [id]  sp_202318
+  title    : BI 7-Day Reverse Repo Rate Tetap 4,25%: Menjaga Momentum Pemulihan di Tengah Peningkatan Risiko Glob
+  decision :  hold  bps=0.0  level=4.25%  ref=20/23/DKom
+  sections : 8   words: 1220
+  url      : https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_202318.aspx
+      1. [other             ] No. 20/ 23 /DKom
+      2. [decision          ] Rapat Dewan Gubernur (RDG) Bank Indonesia pada 21-22 Maret 2018 memutuskan untuk mempert
+      3. [growth            ] Pertumbuhan ekonomi global 2018 diperkirakan meningkat, meski terdapat beberapa risiko y
+      4. [growth            ] Perekonomian Indonesia pada triwulan I 2018 diperkirakan tumbuh lebih baik dari triwulan
+      5. [other             ] Neraca perdagangan Indonesia sampai dengan Februari 2018 mencatat defisit sejalan dengan
+      6. [exchange_rate     ] Nilai tukar rupiah melemah pada Februari 2018 sejalan dengan pergerakan mata uang kawasa
+      7. [inflation         ] Inflasi pada Februari 2018 tetap terkendali dalam kisaran sasaran.
+      8. [credit            ] Kondisi sistem keuangan tetap stabil di tengah intermediasi perbankan yang belum kuat.
+------------------------------------------------------------------------------
